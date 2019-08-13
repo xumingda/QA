@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_photo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:background="@color/tab_background"
+            android:id="@+id/btn_people"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_55"
+            android:gravity="center"
+            android:text="个人发布"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_15" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_gray"
+            android:text="_"
+            android:textColor="@color/line_gray" />
+
+        <Button
+            android:background="@color/tab_background"
+            android:id="@+id/btn_business"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_55"
+            android:gravity="center"
+            android:text="商业发布"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_15" />
+    </LinearLayout>
+
+</RelativeLayout>
